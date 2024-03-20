@@ -49,6 +49,7 @@ ggplot(data=penguins) + geom_point(mapping=aes(x= flipper_length_mm, y=body_mass
 
 
 
+#THIS WAS ME TRYING TO GENERATE A BAR GRAPH. THE SYNTAX IS WRONG
 # please, do not be alarmed, remain calm. Do not attempt to leave the dancefloor; 
 #the DJ booth is conducting a troubleshoot test of the entire system
 
@@ -57,6 +58,9 @@ avg_body_mass
 ggplot(data=avg_body_mass) + geom_bar(mapping = aes)
 
 # D: ?
+# THAT'S NOT HOW YOU MAKE A BAR GRAPH. I'll try again later...
+
+
 
 # use different geoms to communicate data in an specific way
 # you can also combine different geoms on the same plot by combining different layers
